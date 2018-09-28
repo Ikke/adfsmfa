@@ -1677,6 +1677,7 @@ namespace Neos.IdentityServer.MultiFactor
             result += "</script>" + "\r\n";
 
             result += "<form method=\"post\" id=\"enrollotpForm\" autocomplete=\"off\" \">";
+            result += "<br>";
             switch (usercontext.WizPageID)
             {
                 case 0:
@@ -2277,6 +2278,7 @@ namespace Neos.IdentityServer.MultiFactor
             result += "</script>" + "\r\n";
 
             result += "<form method=\"post\" id=\"enrollPinForm\" autocomplete=\"off\" onsubmit=\"return ValidateRegistration(this)\" >";
+            result += "<br>";
 
          //   IExternalProvider prov = RuntimeAuthProvider.GetProvider(PreferredMethod.Email);
          //   prov.GetAuthenticationContext(usercontext);
